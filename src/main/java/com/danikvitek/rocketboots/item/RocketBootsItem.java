@@ -7,7 +7,7 @@ import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Rarity;
 
-class RocketBootsItem extends ArmorItem {
+public class RocketBootsItem extends ArmorItem {
     public RocketBootsItem() {
         super(
                 ArmorMaterials.IRON, EquipmentSlot.FEET,
