@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "rocket-boots",
+  "version": "${version}",
+  "name": "RocketBoots",
+  "description": "",
+  "authors": [
+    "Danik_Vitek"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rocket-boots/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "com.danikvitek.rocketboots.client.RocketBootsClient"
+    ],
+    "main": [
+      "com.danikvitek.rocketboots.RocketBoots"
+    ]
+  },
+  "mixins": [
+    "rocket-boots.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.0",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
